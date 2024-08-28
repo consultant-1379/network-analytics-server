@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<feature>
+	<product-id>CNA 403 2969</product-id>
+	<feature-name>Ericsson-LTE-Call-Failure-Guided-Analysis</feature-name>
+	<release>15.0-A</release>
+	<system-area>LTE</system-area>
+    <datasource-guid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFF</datasource-guid> 
+</feature>

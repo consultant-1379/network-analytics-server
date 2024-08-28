@@ -1,0 +1,56 @@
+<Server port="9005" shutdown="SHUTDOWN">
+  <Service name="Spotfire">
+    <!--
+        <Connector port="443"
+                   maxHttpHeaderSize="65536"
+                   connectionTimeout="30000"
+                   enableLookups="false"
+                   URIEncoding="UTF-8"
+                   disableUploadTimeout="true"
+                   server="TIBCO Spotfire Server"
+                   compression="on"
+                   compressableMimeType="text/html,text/xml,text/plain,text/css,application/json,application/javascript,image/svg+xml,application/xml,application/octet-stream"
+                   acceptorThreadCount="2"
+                   keepAliveTimeout="30000"
+                   maxKeepAliveRequests="-1"
+                   maxThreads="2000" />
+        -->
+    <!-- Please note that if you add any other attributes to this connectors these will not have effect -->
+    <Connector port="9080" connectorType="registration" bindOnInit="false" />
+    <!-- Please note that if you add any other attributes to this connectors these will not have effect -->
+    <Connector port="9443" connectorType="backend" bindOnInit="false" />
+    <!-- Enable this connector if you want to use HTTPS -->
+    <Connector port="443" maxHttpHeaderSize="16384" connectionTimeout="30000" enableLookups="false" URIEncoding="UTF-8" disableUploadTimeout="true" server="TIBCO Spotfire Server" compression="on" compressableMimeType="text/html,text/xml,text/plain,text/css,application/json,application/javascript,image/svg+xml,application/xml,application/octet-stream" acceptorThreadCount="2" keepAliveTimeout="30000" maxKeepAliveRequests="-1" maxThreads="2000" SSLEnabled="true" scheme="https" secure="true" keystoreFile="./certs/" keystorePass="testpassword" keystoreType="pkcs12" ciphers="TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 ,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA" clientAuth="false" sslProtocol="TLS" sslEnabledProtocols="TLSv1.2" useServerCipherSuitesOrder="true" />
+    <!-- Enable this connector if you want to use a load balancer that supports the Apache JServ Protocol -->
+    <!--
+        <Connector port="8009"
+                   protocol="AJP/1.3"
+                   packetSize="65536"
+                   URIEncoding="UTF-8"/>
+        -->
+    <Engine name="Spotfire" defaultHost="localhost" jvmRoute="hostname">
+      <Host name="localhost" appBase="webapps" deployOnStartup="true" autoDeploy="false" unpackWARs="false">
+        <Context docBase="ROOT" path="" reloadable="false" />
+        <!-- Enable this valve if you want access logs in the Common Log Format -->
+        <!--
+                <Valve className="org.apache.catalina.valves.AccessLogValve"
+                       directory="logs"
+                       prefix="access."
+                       suffix=".log"
+                       pattern="%h %l %{spotfire.user}r %t &quot;%r&quot; %s %b"
+                       resolveHosts="false"/>
+                -->
+        <!-- Enable this valve if you want access logs in the Extended Log File Format -->
+        <!--
+                <Valve className="org.apache.catalina.valves.ExtendedAccessLogValve"
+                       directory="logs"
+                       prefix="access.extendedvalve."
+                       fileDateFormat="yyyy-MM-dd"
+                       suffix=".log"
+                       pattern="date time c-ip x-R(spotfire.user) x-S(spotfire.session-number) x-R(spotfire.request-id) cs-method cs-uri-stem cs-uri-query sc-status bytes time-taken x-H(protocol) x-H(scheme)"
+                 />
+                 -->
+      </Host>
+    </Engine>
+  </Service>
+</Server>

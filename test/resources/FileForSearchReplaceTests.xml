@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library-item xmlns="http://spotfire.tibco.com/ws/2008/12/library">
+    <title>library</title>
+    <item-type>
+        <label>folder</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>true</is-container>
+    </item-type>
+    <format-version>29.2.0.100</format-version>
+    <created>2015-06-23T17:14:15.009+01:00</created>
+    <modified>2015-06-23T17:14:15.009+01:00</modified>
+    <children>
+        <library-item>
+            <id>c7c1bc43-00d5-4132-9e57-87f0b44fa8bc</id>
+            <title>Information Package</title>
+            <item-type>
+                <label>folder</label>
+                <label-prefix>spotfire</label-prefix>
+                <is-container>true</is-container>
+            </item-type>
+            <created-by>NetanServer01@SPOTFIRE</created-by>
+            <created>2015-06-18T12:52:18.000Z</created>
+            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+            <modified>2015-06-19T15:33:45.000Z</modified>
+            <accessed>2015-06-23T16:14:15.000Z</accessed>
+            <properties/>
+            <keywords/>
+            <children>
+                <library-item>
+                    <id>188c7061-5bb4-4e15-9c5a-c396ab84333a</id>
+                    <title>Information Link</title>
+                    <item-type>
+                        <label>folder</label>
+                        <label-prefix>spotfire</label-prefix>
+                        <is-container>true</is-container>
+                    </item-type>
+                    <created-by>NetanServer01@SPOTFIRE</created-by>
+                    <created>2015-06-18T12:54:14.000Z</created>
+                    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                    <modified>2015-06-19T15:33:45.000Z</modified>
+                    <accessed>2015-06-23T16:14:15.000Z</accessed>
+                    <properties/>
+                    <keywords/>
+                    <children>
+                        <library-item>
+                            <id>06f59523-06dd-4db3-b7e0-00b4d03bd761</id>
+                            <title>IL_EVENT_E_LTE_CFA_ARRAY_ERAB_HIER321_EVENTID_QCI_ERR</title>
+                            <item-type>
+<label>query</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>false</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T16:23:45.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-19T15:33:45.000Z</modified>
+                            <accessed>2015-06-23T16:11:09.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <dependencies>
+<dependency>
+    <requiredid>1ad31e92-7b20-4af9-85ff-43c057f791fa</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>3bad49ef-1394-4251-a260-1e406c13cbcc</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>bc8441af-ee15-4e5a-8cd5-4a629eda180b</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>54797874-103a-46cf-9ba1-431bfebfa995</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>4eefbbc6-bdf8-4365-92ad-6e5b48401709</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+                            </dependencies>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>138d530e-31aa-40fc-93ab-293656ab9fb8</id>
+                            <title>IL_DIM_E_LTE_CFA_CAUSE_CODE</title>
+                            <item-type>
+<label>query</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>false</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T16:08:33.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-18T16:09:16.000Z</modified>
+                            <accessed>2015-06-23T16:11:04.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <dependencies>
+<dependency>
+    <requiredid>2fafebad-0912-494b-b035-b804d9ae2d3b</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>0844a2f6-8187-4eef-bff5-199763497d7b</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>9fe90394-58ea-4592-9997-aaa03fe8b1fc</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>e0917029-4ad1-4456-954c-14b944e1a00a</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+                            </dependencies>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>4868ea75-b05d-48df-a871-8b594576f99e</id>
+                            <title>IL_DIM_E_LTE_CFA_EVENTTYPE</title>
+                            <item-type>
+<label>query</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>false</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T16:21:31.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-18T16:21:31.000Z</modified>
+                            <accessed>2015-06-23T16:11:06.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <dependencies>
+<dependency>
+    <requiredid>af57aeec-6b1f-4919-86c5-28620250cede</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>62fa5fdf-d748-477e-b8c3-5225178acfc1</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>6f533b23-3a00-40ca-9bc8-0f072e0867a5</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+                            </dependencies>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>650426e0-c03d-4b1c-8bd9-4d37817d57fe</id>
+                            <title>IL_DIM_E_LTE_HIER321</title>
+                            <item-type>
+<label>query</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>false</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T16:22:40.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-19T15:11:39.000Z</modified>
+                            <accessed>2015-06-23T16:05:12.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <dependencies>
+<dependency>
+    <requiredid>0e4bdd3a-abfd-46ae-96ff-9e559fe0fd59</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>5038e490-508f-4e9e-92e0-17723e8f8d78</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>d74beae2-2aca-4280-ab1e-7189457f2600</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>4dba8f9f-84a7-4745-bc9e-0d2274632ab8</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>d9181601-210a-4d8a-adc2-86f80ee3b5a9</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+                            </dependencies>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>75847183-3644-4ae3-bafb-2cb681a86c96</id>
+                            <title>IL_DIM_E_LTE_QCI</title>
+                            <item-type>
+<label>query</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>false</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T16:23:09.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-18T16:23:09.000Z</modified>
+                            <accessed>2015-06-23T16:11:16.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <dependencies>
+<dependency>
+    <requiredid>8d6c38ab-9e62-4589-9f42-9ecd4cc7094f</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>b39a6a7c-724f-4646-9468-e74caad55d0e</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+                            </dependencies>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>a898e1e6-752e-4fe9-8670-4c8567a2d97b</id>
+                            <title>IL_EVENT_E_LTE_CFA_HIER321_EVENTID_ERR</title>
+                            <item-type>
+<label>query</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>false</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T16:24:42.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-19T15:33:23.000Z</modified>
+                            <accessed>2015-06-23T16:05:13.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <dependencies>
+<dependency>
+    <requiredid>21d539ea-ab8b-471f-9b3b-4cc5180e4293</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>0b93c119-3b34-43ab-827c-85033ae6d939</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>8f06a076-e7f3-46c1-bcd7-eb8ecc8868a0</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>7575177b-a045-42e8-ac85-0d63fe355252</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+                            </dependencies>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>aa1d4561-6e5a-4a46-a575-dacc8ce87fe3</id>
+                            <title>IL_EVENT_E_LTE_CFA_HIER3_CC_ERR</title>
+                            <item-type>
+<label>query</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>false</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T16:24:11.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-19T15:32:50.000Z</modified>
+                            <accessed>2015-06-23T16:09:28.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <dependencies>
+<dependency>
+    <requiredid>a8fd605e-b48a-42fd-be09-954ad7c7995c</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>b8579e65-b347-44d6-b8c1-10f59e976fa3</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>fef041eb-fa7a-40fd-8f55-ff85dc21e3f3</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>e64e5a8d-8efd-4b40-b4df-be4cf7503346</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+<dependency>
+    <requiredid>c3b7e212-62e2-4186-a515-b3cb01c555c2</requiredid>
+    <description>Column required by this query</description>
+    <cascading-delete>false</cascading-delete>
+</dependency>
+                            </dependencies>
+                            <hidden>false</hidden>
+                        </library-item>
+                    </children>
+                    <hidden>false</hidden>
+                </library-item>
+                <library-item>
+                    <id>5e52482d-5c93-4a36-92e6-72ed56fa620f</id>
+                    <title>Columns</title>
+                    <item-type>
+                        <label>folder</label>
+                        <label-prefix>spotfire</label-prefix>
+                        <is-container>true</is-container>
+                    </item-type>
+                    <created-by>NetanServer01@SPOTFIRE</created-by>
+                    <created>2015-06-18T12:54:22.000Z</created>
+                    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                    <modified>2015-06-19T15:01:44.000Z</modified>
+                    <accessed>2015-06-23T16:14:15.000Z</accessed>
+                    <properties/>
+                    <keywords/>
+                    <children>
+                        <library-item>
+                            <id>32b8f323-7944-48c8-b17f-e99f18880879</id>
+                            <title>DIM_E_LTE_CFA_EVENTTYPE</title>
+                            <item-type>
+<label>folder</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>true</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T13:16:21.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-18T13:16:25.000Z</modified>
+                            <accessed>2015-06-23T16:14:15.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <children>
+<library-item>
+    <id>62fa5fdf-d748-477e-b8c3-5225178acfc1</id>
+    <title>EVENT_ID_DESC</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:16:25.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:16:25.000Z</modified>
+    <accessed>2015-06-23T16:11:05.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>EVENT_ID_DESC</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_CFA_EVENTTYPE</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>string</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>6f533b23-3a00-40ca-9bc8-0f072e0867a5</id>
+    <title>EVENT_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:16:25.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:16:25.000Z</modified>
+    <accessed>2015-06-23T16:11:05.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>EVENT_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_CFA_EVENTTYPE</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>af57aeec-6b1f-4919-86c5-28620250cede</id>
+    <title>CATEGORY_ID_DESC</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:16:25.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:16:25.000Z</modified>
+    <accessed>2015-06-23T16:11:05.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>CATEGORY_ID_DESC</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_CFA_EVENTTYPE</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>string</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+                            </children>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>34df00a0-a721-4cff-8284-562a64231325</id>
+                            <title>DIM_E_LTE_CFA_CAUSE_CODE</title>
+                            <item-type>
+<label>folder</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>true</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T15:47:29.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-18T15:47:32.000Z</modified>
+                            <accessed>2015-06-23T16:14:15.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <children>
+<library-item>
+    <id>0844a2f6-8187-4eef-bff5-199763497d7b</id>
+    <title>CAUSE_CODE_DESC</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:47:32.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:47:32.000Z</modified>
+    <accessed>2015-06-23T16:11:04.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>CAUSE_CODE_DESC</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_CFA_CAUSE_CODE</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>string</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>2fafebad-0912-494b-b035-b804d9ae2d3b</id>
+    <title>CAUSE_CODE</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:47:32.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:47:32.000Z</modified>
+    <accessed>2015-06-23T16:11:04.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>CAUSE_CODE</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_CFA_CAUSE_CODE</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>9fe90394-58ea-4592-9997-aaa03fe8b1fc</id>
+    <title>EVENT_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:47:32.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:47:32.000Z</modified>
+    <accessed>2015-06-23T16:11:04.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>EVENT_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_CFA_CAUSE_CODE</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>e0917029-4ad1-4456-954c-14b944e1a00a</id>
+    <title>CAUSE_CODE_DESC_PIE</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:47:32.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:47:32.000Z</modified>
+    <accessed>2015-06-23T16:11:04.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>CAUSE_CODE_DESC_PIE</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_CFA_CAUSE_CODE</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>string</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+                            </children>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>58ba466d-0026-42f2-9c7f-b39505c0389e</id>
+                            <title>DIM_E_LTE_HIER321</title>
+                            <item-type>
+<label>folder</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>true</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T13:18:17.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-19T14:41:47.000Z</modified>
+                            <accessed>2015-06-23T16:14:15.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <children>
+<library-item>
+    <id>0e4bdd3a-abfd-46ae-96ff-9e559fe0fd59</id>
+    <title>HIERARCHY_1</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:18:40.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:18:40.000Z</modified>
+    <accessed>2015-06-23T16:05:12.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>HIERARCHY_1</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_HIER321</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>string</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>4dba8f9f-84a7-4745-bc9e-0d2274632ab8</id>
+    <title>HIER3_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-19T09:21:40.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-19T09:21:40.000Z</modified>
+    <accessed>2015-06-23T16:05:12.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>HIER3_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_HIER321</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>5038e490-508f-4e9e-92e0-17723e8f8d78</id>
+    <title>TRAC</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:18:41.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:18:41.000Z</modified>
+    <accessed>2015-06-23T16:05:12.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>TRAC</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_HIER321</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>d74beae2-2aca-4280-ab1e-7189457f2600</id>
+    <title>HIER321_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:18:41.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:18:41.000Z</modified>
+    <accessed>2015-06-23T16:05:12.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>HIER321_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_HIER321</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>d9181601-210a-4d8a-adc2-86f80ee3b5a9</id>
+    <title>HIERARCHY_3</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:18:40.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:18:40.000Z</modified>
+    <accessed>2015-06-23T16:05:12.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>HIERARCHY_3</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_HIER321</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>string</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+                            </children>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>b1752e2a-ee7f-4a76-94af-68261362395b</id>
+                            <title>EVENT_E_LTE_CFA_HIER321_EVENTID_ERR</title>
+                            <item-type>
+<label>folder</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>true</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T13:14:33.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-19T15:01:44.000Z</modified>
+                            <accessed>2015-06-23T16:14:15.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <children>
+<library-item>
+    <id>0b93c119-3b34-43ab-827c-85033ae6d939</id>
+    <title>HIER321_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:14:37.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:14:37.000Z</modified>
+    <accessed>2015-06-23T16:05:13.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>HIER321_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER321_EVENTID_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>21d539ea-ab8b-471f-9b3b-4cc5180e4293</id>
+    <title>NO_OF_ERRORS</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:14:37.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:14:37.000Z</modified>
+    <accessed>2015-06-23T16:05:13.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>NO_OF_ERRORS</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER321_EVENTID_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>7575177b-a045-42e8-ac85-0d63fe355252</id>
+    <title>EVENT_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:14:37.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:14:37.000Z</modified>
+    <accessed>2015-06-23T16:05:13.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>EVENT_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER321_EVENTID_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>8f06a076-e7f3-46c1-bcd7-eb8ecc8868a0</id>
+    <title>DATETIME_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T13:14:37.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T13:14:37.000Z</modified>
+    <accessed>2015-06-23T16:05:13.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>DATETIME_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER321_EVENTID_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>datetime</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+                            </children>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>b7f8eb1a-957a-40cd-a926-5cc9240e0838</id>
+                            <title>EVENT_E_LTE_CFA_ARRAY_ERAB_HIER321_EVENTID_QCI_ERR</title>
+                            <item-type>
+<label>folder</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>true</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T15:51:07.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-18T15:51:10.000Z</modified>
+                            <accessed>2015-06-23T16:14:15.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <children>
+<library-item>
+    <id>1ad31e92-7b20-4af9-85ff-43c057f791fa</id>
+    <title>EVENT_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:51:10.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:51:10.000Z</modified>
+    <accessed>2015-06-23T16:11:09.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>EVENT_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_ARRAY_ERAB_HIER321_EVENTID_QCI_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>3bad49ef-1394-4251-a260-1e406c13cbcc</id>
+    <title>NO_OF_ERRORS</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:51:10.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:51:10.000Z</modified>
+    <accessed>2015-06-23T16:11:09.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>NO_OF_ERRORS</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_ARRAY_ERAB_HIER321_EVENTID_QCI_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>4eefbbc6-bdf8-4365-92ad-6e5b48401709</id>
+    <title>QCI_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:51:10.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:51:10.000Z</modified>
+    <accessed>2015-06-23T16:11:09.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>QCI_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_ARRAY_ERAB_HIER321_EVENTID_QCI_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>54797874-103a-46cf-9ba1-431bfebfa995</id>
+    <title>HIER321_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:51:10.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:51:10.000Z</modified>
+    <accessed>2015-06-23T16:11:09.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>HIER321_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_ARRAY_ERAB_HIER321_EVENTID_QCI_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>bc8441af-ee15-4e5a-8cd5-4a629eda180b</id>
+    <title>DATETIME_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:51:10.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:51:10.000Z</modified>
+    <accessed>2015-06-23T16:11:09.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>DATETIME_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_ARRAY_ERAB_HIER321_EVENTID_QCI_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>datetime</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+                            </children>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>bc34c5ec-3334-4989-bc47-6a9a7b169b43</id>
+                            <title>DIM_E_LTE_QCI</title>
+                            <item-type>
+<label>folder</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>true</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T15:53:58.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-18T16:09:16.000Z</modified>
+                            <accessed>2015-06-23T16:14:15.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <children>
+<library-item>
+    <id>8d6c38ab-9e62-4589-9f42-9ecd4cc7094f</id>
+    <title>QCI_NUMBER</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:54:03.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:54:03.000Z</modified>
+    <accessed>2015-06-23T16:11:16.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>QCI_NUMBER</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_QCI</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>b39a6a7c-724f-4646-9468-e74caad55d0e</id>
+    <title>QCI_ID_DESCRIPTION</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:54:03.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:54:03.000Z</modified>
+    <accessed>2015-06-23T16:11:16.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>QCI_ID_DESCRIPTION</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>DIM_E_LTE_QCI</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>string</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+                            </children>
+                            <hidden>false</hidden>
+                        </library-item>
+                        <library-item>
+                            <id>c79a97fa-0f24-4a1f-8921-444eceead757</id>
+                            <title>EVENT_E_LTE_CFA_HIER3_CC_ERR</title>
+                            <item-type>
+<label>folder</label>
+<label-prefix>spotfire</label-prefix>
+<is-container>true</is-container>
+                            </item-type>
+                            <created-by>NetanServer01@SPOTFIRE</created-by>
+                            <created>2015-06-18T15:49:13.000Z</created>
+                            <modified-by>NetanServer01@SPOTFIRE</modified-by>
+                            <modified>2015-06-18T15:49:15.000Z</modified>
+                            <accessed>2015-06-23T16:14:15.000Z</accessed>
+                            <properties/>
+                            <keywords/>
+                            <children>
+<library-item>
+    <id>a8fd605e-b48a-42fd-be09-954ad7c7995c</id>
+    <title>NO_OF_ERRORS</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:49:15.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:49:15.000Z</modified>
+    <accessed>2015-06-23T16:09:28.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>NO_OF_ERRORS</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER3_CC_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>b8579e65-b347-44d6-b8c1-10f59e976fa3</id>
+    <title>CAUSE_CODE</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:49:15.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:49:15.000Z</modified>
+    <accessed>2015-06-23T16:09:28.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>CAUSE_CODE</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER3_CC_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>c3b7e212-62e2-4186-a515-b3cb01c555c2</id>
+    <title>HIER3_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:49:15.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:49:15.000Z</modified>
+    <accessed>2015-06-23T16:09:28.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>HIER3_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER3_CC_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>longinteger</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>e64e5a8d-8efd-4b40-b4df-be4cf7503346</id>
+    <title>EVENT_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:49:15.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:49:15.000Z</modified>
+    <accessed>2015-06-23T16:09:28.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>EVENT_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER3_CC_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>integer</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+<library-item>
+    <id>fef041eb-fa7a-40fd-8f55-ff85dc21e3f3</id>
+    <title>DATETIME_ID</title>
+    <item-type>
+        <label>column</label>
+        <label-prefix>spotfire</label-prefix>
+        <is-container>false</is-container>
+    </item-type>
+    <created-by>NetanServer01@SPOTFIRE</created-by>
+    <created>2015-06-18T15:49:15.000Z</created>
+    <modified-by>NetanServer01@SPOTFIRE</modified-by>
+    <modified>2015-06-18T15:49:15.000Z</modified>
+    <accessed>2015-06-23T16:09:28.000Z</accessed>
+    <properties>
+        <property>
+            <name>column</name>
+            <value>DATETIME_ID</value>
+        </property>
+        <property>
+            <name>table</name>
+            <value>EVENT_E_LTE_CFA_HIER3_CC_ERR_15MIN</value>
+        </property>
+        <property>
+            <name>datatype</name>
+            <value>datetime</value>
+        </property>
+    </properties>
+    <keywords/>
+    <dependencies>
+        <dependency>
+            <requiredid>FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF</requiredid>
+            <description>Data source required by this column</description>
+            <cascading-delete>false</cascading-delete>
+        </dependency>
+    </dependencies>
+    <hidden>false</hidden>
+</library-item>
+                            </children>
+                            <hidden>false</hidden>
+                        </library-item>
+                    </children>
+                    <hidden>false</hidden>
+                </library-item>
+            </children>
+            <acl>
+                <permission>
+                    <principal>
+                        <type>group</type>
+                        <name>Consumer@SPOTFIRE</name>
+                    </principal>
+                    <permission-type>EXECUTE</permission-type>
+                </permission>
+                <permission>
+                    <principal>
+                        <type>group</type>
+                        <name>Administrator@SPOTFIRE</name>
+                    </principal>
+                    <permission-type>READ</permission-type>
+                </permission>
+                <permission>
+                    <principal>
+                        <type>group</type>
+                        <name>Administrator@SPOTFIRE</name>
+                    </principal>
+                    <permission-type>WRITE</permission-type>
+                </permission>
+                <permission>
+                    <principal>
+                        <type>group</type>
+                        <name>Administrator@SPOTFIRE</name>
+                    </principal>
+                    <permission-type>OWNER</permission-type>
+                </permission>
+                <permission>
+                    <principal>
+                        <type>group</type>
+                        <name>Administrator@SPOTFIRE</name>
+                    </principal>
+                    <permission-type>EXECUTE</permission-type>
+                </permission>
+            </acl>
+            <hidden>false</hidden>
+        </library-item>
+    </children>
+    <hidden>false</hidden>
+</library-item>
